@@ -1,0 +1,16 @@
+<menu-diretiva></menu-diretiva>
+
+<section style="text-align: center; background-color: #18bc9c; color: white">
+	<h2 style="margin-top: 40px">Classes</h2>
+	<div style="width: 100%">
+		<div style="width: 100%; display: inline-flex;" ng-repeat="c2 in classes">
+			<div ng-click="openVideo(c[0])" style="cursor: pointer; width: 250px; background-color: #2c3e50; margin: 0px auto; text-align: left; border-radius: 5px; margin-top: 20px" ng-repeat="c in c2">
+			<img width="250px" src="../img/{{c[2]}}">
+			<h5 style="padding: 5px; font-weight: 100">{{c[1]}}</h5>
+		</div>
+		</div>
+	</div>
+</section>
+
+
+<footer-diretiva></footer-diretiva>
